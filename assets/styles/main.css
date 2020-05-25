@@ -1,0 +1,28 @@
+body {
+    
+}
+.flex-container {
+    display: flex;
+  }
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.red-bckground-color{
+    background-color: red;
+}
+.red2-background-color{
+    background-color: #BC3428;
+}
+.blue-bckground-color{
+    background-color: blue;
+}
+.grid-mode{
+    display: grid;
+}
+.logo img{
+    height: 3.5em;
+    transform: translate(0,15%);
+}
