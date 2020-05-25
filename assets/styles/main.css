@@ -1,7 +1,9 @@
 body {
     font-size: 1.125em;
 }
-
+.mr-top-100{
+    margin-top: 100px;
+}
 .flex-container {
     display: flex;
     width: 100%;
@@ -9,8 +11,6 @@ body {
 
 .flex-row {
     flex-direction: row;
-
-
 }
 
 .flex-column {
@@ -66,4 +66,17 @@ nav ul li a {
 .logo img {
     width: 208px;
     height: 76px;
+}
+.main-part{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.bio-image-image{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    transform: scale(1.2) rotateZ(calc(11 * 1deg));
+    transition: transform .2s ease-out;
+    height: 80px;
+    width: 80px;
 }
