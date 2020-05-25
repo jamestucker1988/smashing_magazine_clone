@@ -22,7 +22,14 @@ body {
 .grid-mode{
     display: grid;
 }
+header{
+    
+}
+.logo{
+    flex-basis: 210px;
+    align-self: center;
+}
 .logo img{
-    height: 3.5em;
-    transform: translate(0,15%);
+    width: 208px;
+    height: 76px;
 }
