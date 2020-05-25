@@ -23,7 +23,21 @@ body {
     display: grid;
 }
 header{
-    
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+nav{
+  
+}
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    margin-left: 20px;
+    text-decoration: none;
+}
+nav ul li{
+    padding-right: 10px;
+    text-decoration: none;
 }
 .logo{
     flex-basis: 210px;
