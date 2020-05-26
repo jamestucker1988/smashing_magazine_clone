@@ -72,8 +72,8 @@ nav ul li a {
 
 .main-part {
     display: grid;
-    grid-template-columns: auto auto;
-    border: 1px solid yellow;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid blue;
 }
 
 .text {
@@ -97,7 +97,7 @@ nav ul li a {
     margin-left: -20rem;
     margin-top: 5rem;
     font-size: 3rem;
-    max-width: 40%;
+    max-width: 60%;
 }
 
 article {
