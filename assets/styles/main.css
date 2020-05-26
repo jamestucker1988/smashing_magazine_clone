@@ -7,7 +7,6 @@ body {
     margin-top: 100px;
 }
 */
-
 .flex-container {
     display: flex;
     width: 100%;
@@ -54,7 +53,6 @@ nav ul {
 
 nav ul li {
     padding-right: 10px;
-
     list-style: none;
 }
 
@@ -76,29 +74,25 @@ nav ul li a {
     display: grid;
     grid-template-columns: auto auto;
     border: 1px solid yellow;
-
 }
 
 .text {
-
-
-
     padding-left: 5rem;
     align-self: center;
     margin-top: 15rem;
+}
 
-
+.meow {
+    margin-top: 8rem;
+    text-decoration: none;
 }
 
 .wrote {
     padding-left: 2rem;
     text-decoration: none;
-
 }
 
 .reusable {
-
-
     text-decoration: none;
     margin-left: -20rem;
     margin-top: 5rem;
@@ -112,20 +106,16 @@ article {
     justify-content: flex-start;
 }
 
-
-
 .bio-image-image {
     position: relative;
     width: 100%;
     object-fit: cover;
     display: block;
-
     height: 50px;
     width: 50px;
     /*    margin-top: 20%;*/
     /*    padding-left: 5%;*/
     transform: scale(1.2) rotateZ(-30deg);
-
 }
 
 .bio-image-image:hover {
