@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/main.css">
+    <link href="/smashing_magazine_clone/images/svg/smashing.js">
 </head>
 
 <body>
@@ -32,84 +33,145 @@
                 <li><a href="#">Jobs</a></li>
                 <li><a href="#">Newsletter</a></li>
                 <li><a href="#">Podcasts</a></li>
-                <li role="none" class="nav-item main-nav-more-item"><button class="main-nav-more-item__button" type="button" aria-haspopup="true" aria-expanded="true">
-                        <span class="menu-text--lg">More</span>
-                        <span class="menu-text--lg--close">Less</span>
-                        <span class="menu-text--sm">Menu</span>
-                        <span class="menu-text--sm--close">Less</span></button></li>
+                <!--                <li role="none" class="nav-item main-nav-more-item">-->
+                <div class="dropdown">
 
+                    <button onclick=myFunction() class="dropbtn" type="button" aria-haspopup="true" aria-expanded="true">more</button>
+                    <div id="myDropdown" class=" dropdown-content">
+
+                        <a class="">More</a>
+                        <a class="">Less</a>
+                    </div>
+                    <!--
+                    <span class="menu-text--sm">Menu</span>
+                    <span class="menu-text--sm--close">Less</span>-->
+
+                </div>
 
             </ul>
         </nav>
     </header>
-    <main class="main-part">
-        <div class="text">
-            <article>
+    <main class="">
+
+        <div class="center-heading">Do not miss these Latest
+            <span class=" padding-article">Articles</span></div>
+        <div></div>
+        <img id="x" src="/smashing_magazine_clone/images/svg/circular.svg">
+
+        <button class="red">seriously,red?</button>
+        <div class="main-part">
+            <div class="text">
+                <article>
 
 
-                <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb710a1a-4213-48cc-b162-de35f53742b4/tilomitra-200x200.jpg" alt="Tilo Mitra" class="bio-image-image">
-                <a href="https://www.smashingmagazine.com/author/tilo-mitra" class="auther">Tilo Mitra<span class="wrote">wrote</span></a>
+                    <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb710a1a-4213-48cc-b162-de35f53742b4/tilomitra-200x200.jpg" alt="Tilo Mitra" class="bio-image-image">
+                    <a href="https://www.smashingmagazine.com/author/tilo-mitra" class="auther">Tilo Mitra<span class="wrote">wrote</span></a>
+                    <div class="flex1 main-sec-text text">
 
-                <a href="#" class="main-sec-text text">Building reusable react component using Tailwind.</a>
-
-
-
-
-
-                <a class="meow" href="#"><span>Meow!</span></a>
+                        <a href="#">Building reusable react component using Tailwind.<span class="meow">Meow!</span></a>
 
 
 
 
 
-            </article>
-        </div>
-        <div class="text">
-            <article>
-                <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb710a1a-4213-48cc-b162-de35f53742b4/tilomitra-200x200.jpg" alt="Tilo Mitra" class="bio-image-image">
-                <a href="https://www.smashingmagazine.com/author/tilo-mitra" class="auther">Tilo Mitra<span class="wrote">wrote</span>
-
-                </a>
-                <a href="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb710a1a-4213-48cc-b162-de35f53742b4/tilomitra-200x200.jpg" class="main-sec-text text"><span>Building reusable react</span>
-                    component using Tailwind.</a>
 
 
-                <a class="meow" href="#"><span>Meow!</span></a>
-            </article>
-        </div>
-        <div class="text">
-            <article>
 
-                <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb710a1a-4213-48cc-b162-de35f53742b4/tilomitra-200x200.jpg" alt="Tilo Mitra" class="bio-image-image">
+                        <div class="user">
+                            <a href="#" class="base">#Accesibility</a>
+                            <a href="#" class="expo">46</a>
+                            <a href="#" class="base">#User Experience</a>
+                            <a href="#" class="expo">299</a>
+                        </div>
 
+                    </div>
 
-                <a href="https://www.smashingmagazine.com/author/tilo-mitra" class="auther">Tilo Mitra<span class="wrote">wrote</span>
-
-                </a>
-
-
-                <a href="#" class="main-sec-text text"><span>Building reusable react</span>
-                    component using Tailwind.</a>
+                </article>
+            </div>
+            <div class="text">
+                <article>
 
 
-                <a class="meow" href="#"><span>Meow!</span></a>
-            </article>
-        </div>
-        <div class="text">
-            <article>
+                    <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb710a1a-4213-48cc-b162-de35f53742b4/tilomitra-200x200.jpg" alt="Tilo Mitra" class="bio-image-image">
+                    <a href="https://www.smashingmagazine.com/author/tilo-mitra" class="auther">Tilo Mitra<span class="wrote">wrote</span></a>
+                    <div class="flex1 main-sec-text text">
 
-                <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb710a1a-4213-48cc-b162-de35f53742b4/tilomitra-200x200.jpg" alt="Tilo Mitra" class="bio-image-image">
+                        <a href="#">Building reusable react component using Tailwind.<span class="meow">Meow!</span></a>
 
 
-                <a href="https://www.smashingmagazine.com/author/tilo-mitra" class="auther">Tilo Mitra<span class="wrote">wrote</span></a>
 
 
-                <a href="#" class="main-sec-text text"><span>Building reusable react</span>
-                    component using Tailwind.</a>
 
 
-                <a class="meow" href="#"><span>Meow!</span></a>
-            </article>
+
+
+                        <div class="user">
+                            <a href="#" class="base">#Accesibility</a>
+                            <a href="#" class="expo">46</a>
+                            <a href="#" class="base">#User Experience</a>
+                            <a href="#" class="expo">299</a>
+                        </div>
+
+                    </div>
+
+                </article>
+            </div>
+            <div class="text">
+                <article>
+
+
+                    <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb710a1a-4213-48cc-b162-de35f53742b4/tilomitra-200x200.jpg" alt="Tilo Mitra" class="bio-image-image">
+                    <a href="https://www.smashingmagazine.com/author/tilo-mitra" class="auther">Tilo Mitra<span class="wrote">wrote</span></a>
+                    <div class="flex1 main-sec-text text">
+
+                        <a href="#">Building reusable react component using Tailwind.<span class="meow">Meow!</span></a>
+
+
+
+
+
+
+
+
+                        <div class="user">
+                            <a href="#" class="base">#Accesibility</a>
+                            <a href="#" class="expo">46</a>
+                            <a href="#" class="base">#User Experience</a>
+                            <a href="#" class="expo">299</a>
+                        </div>
+
+                    </div>
+
+                </article>
+            </div>
+            <div class="text">
+                <article>
+
+
+                    <img src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb710a1a-4213-48cc-b162-de35f53742b4/tilomitra-200x200.jpg" alt="Tilo Mitra" class="bio-image-image">
+                    <a href="https://www.smashingmagazine.com/author/tilo-mitra" class="auther">Tilo Mitra<span class="wrote">wrote</span></a>
+                    <div class="flex1 main-sec-text text">
+
+                        <a href="#">Building reusable react component using Tailwind.<span class="meow">Meow!</span></a>
+
+
+
+
+
+
+
+
+                        <div class="user">
+                            <a href="#" class="base">#Accesibility</a>
+                            <a href="#" class="expo">46</a>
+                            <a href="#" class="base">#User Experience</a>
+                            <a href="#" class="expo">299</a>
+                        </div>
+
+                    </div>
+
+                </article>
+            </div>
         </div>
     </main>
     <section class="latest_post">
