@@ -98,11 +98,10 @@ nav ul li a {
     grid-template-rows: repeat(2, 1fr);
     grid-auto-flow: column;
     border: 1px solid blue;
+    background-color: #d33a2c;
 }
 
 .text {
-
-
     padding-left: 5rem;
     align-self: center;
     margin-top: 10rem;
@@ -117,10 +116,8 @@ nav ul li a {
 
 .main-sec-text {
     position: relative;
-    /*    display: block;*/
-    /*    float: left;*/
 
-    /*    margin-top: 12rem;*/
+
     left: -12rem;
     font-size: 2.5rem;
     max-width: 60%;
@@ -135,55 +132,32 @@ nav ul li a {
     align-self: flex-end;
     display: inline;
     text-decoration: none;
-
-
     font-size: 1.5rem;
     padding-left: 3rem;
-
-
-
-
 }
 
 .user {
-
-
-
-
     position: relative;
-    /*    float: left;*/
     align-self: flex-start;
-    /*    clear: both;*/
     display: flex;
     max-width:
         auto;
     text-decoration: none;
     font-size: 1rem;
-/*    justify-content: space-evenly;*/
     padding-top: 2rem;
 }
 
 .user a {
-
-
-
-
     flex: 1 1 auto;
-
-
-
-
 }
 
 .user a:nth-child(3) {
-
     padding-left: 2rem;
 }
 
 .flex1 {
     display: flex;
     flex-direction: column;
-
     justify-content: flex-start;
     align-items: flex-start;
     flex: 1 1 200px;
@@ -195,8 +169,6 @@ nav ul li a {
     font-weight: 300;
     text-decoration: none;
     left: 2rem;
-
-
 }
 
 .wrote {
@@ -204,11 +176,7 @@ nav ul li a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-
-
 }
-
-
 
 article {
     display: flex;
@@ -256,30 +224,21 @@ article {
     top: 20%;
     font-size: 2rem;
     font-family: cursive;
-    /*    padding-right: auto;*/
     width: auto;
 }
 
 .padding-article {
     display: block;
     position: relative;
-    /*    padding-left: auto;*/
     left: 30%;
-    /*    padding-top: 8rem;*/
     z-index: 1;
     font-size: 2rem;
     font-family: cursive;
 }
 
 #x {
-    float: left;
     color: blue;
-    width: 5rem;
-}
-
-.red {
-    border-radius: 11px;
-    padding: 0.5rem;
+    width: 3rem;
 }
 
 .dropdown {
@@ -297,12 +256,9 @@ article {
 /*
 .dropdown-content:hover,
 .dropdown-content:focus {
-
     background-color: yellow;
-
 }
 */
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -312,18 +268,9 @@ article {
     z-index: 1;
 }
 
-
-
 .expo {
-
-
     margin-bottom: 0.5rem;
-
     padding-left: 0.5rem;
-
-
-
-
 }
 
 .base {
@@ -333,3 +280,130 @@ article {
 .show {
     display: block;
 }
+
+.main-heading-grid {
+    display: grid;
+    justify-content: flex-end;
+    background-color: #d33a2c;
+}
+
+.bg-color1 {
+    background-color: #d33a2c;
+}
+
+.red-image {
+    /*    margin-right: 10%;*/
+    align-self: center;
+    /*    margin-top: 4rem;*/
+    /*    fill: red;*/
+    box-sizing: border-box;
+    /*    background-position: center;*/
+    background-color: white;
+    transform: rotateZ(-30deg);
+    /*    transform: skewY(0deg);*/
+    border: none;
+    border-radius: 11px;
+    width: 30%;
+    height: 55%;
+    /*    transform: rotateZ(0deg);*/
+}
+
+.bor {
+    /*    background-color: red;*/
+    /*    background-clip: padding-box;*/
+    transform: rotateZ(0deg);
+    border: none;
+    padding: auto 10%;
+    width: inherit;
+    border-radius: 200%;
+    /*    width: 50%;*/
+    margin-right: -2rem;
+    background-color: white;
+    color: white;
+}
+
+/*
+.red-image:hover,
+.red:hover {
+    transition: rotateZ 0.2s ease-out;
+}*/
+.red {
+    /*    transform: rotateZ(30deg);*/
+    margin-left: 5rem;
+    color: white;
+    background-color: #d33a2c;
+}
+
+.bg-color {
+    background-color: #811d15;
+}
+
+.hov {
+    animation-name: hover1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 1000;
+    animation-fill-mode: none;
+}
+
+@keyframes hover1 {
+    0% .red-image {
+        background-color: white;
+        transform: rotateZ(-30deg);
+        border: none;
+        border-radius: 11px;
+        width: 30%;
+        height: 55%;
+    }
+
+    .bor {
+        transform: rotateZ(0deg);
+        border: none;
+        padding: auto 10%;
+        width: inherit;
+        border-radius: 200%;
+        margin-right: -2rem;
+        background-color: white;
+        color: white;
+    }
+
+    /*
+    .red-image:hover,
+    .red:hover {
+        transition: rotateZ 0.2s ease-out;
+    }
+*/
+    .red {
+        margin-left: 5rem;
+        color: white;
+        background-color: #d33a2c;
+    }
+
+    100% .red {
+        color: #d33a2c;
+        background-color: white;
+    }
+
+    .red-image {
+        transform: rotateZ(0deg);
+    }
+
+    .bor {
+        transform: rotateZ(180deg);
+    }
+}
+
+.singing-barista {
+    width: 60%;
+}
+
+.hov:active {
+    transition: hover1;
+}
+
+/*
+    {
+        transition: @keyframes 1s ease-out;
+    }
+*/
