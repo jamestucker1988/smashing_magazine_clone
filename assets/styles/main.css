@@ -1,5 +1,6 @@
 body {
     font-size: 1.125em;
+    background-color: #f6f3f2;
 }
 
 /*
@@ -105,7 +106,8 @@ nav ul li a {
     padding-left: 5rem;
     align-self: center;
     margin-top: 10rem;
-    /*    float: left;*/
+
+
 }
 
 .y {
@@ -126,6 +128,7 @@ nav ul li a {
 }
 
 .meow {
+
     position: relative;
     align-self: flex-end;
     display: inline;
@@ -250,18 +253,22 @@ article {
 
 .btn {
     box-sizing: border-box;
-    /*    text-align: center;*/
+
+
     border: 1px solid #fff;
     border-radius: 11px;
     padding: 1rem;
-    /*    margin-top: 10rem;*/
+
+
     color: blue;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
-    /*    width: 5%;*/
-    /*    align: center;*/
+
+
+
+
 }
 
 .smashing-tv {
@@ -308,7 +315,8 @@ article {
 .dropdown {
     position: relative;
     display: inline-block;
-    /*    background-color: darkred;*/
+
+
 }
 
 .dropbtn {
@@ -356,31 +364,40 @@ article {
 }
 
 .red-image {
-    /*    margin-right: 10%;*/
+
+
     align-self: center;
-    /*    margin-top: 4rem;*/
-    /*    fill: red;*/
+
+
     box-sizing: border-box;
-    /*    background-position: center;*/
+
+
+
+
     background-color: white;
     transform: rotateZ(-30deg);
-    /*    transform: skewY(0deg);*/
+
+
     border: none;
     border-radius: 11px;
     width: 30%;
     height: 55%;
-    /*    transform: rotateZ(0deg);*/
+
+
 }
 
 .bor {
-    /*    background-color: red;*/
-    /*    background-clip: padding-box;*/
+
+
     transform: rotateZ(0deg);
     border: none;
     padding: auto 10%;
     width: inherit;
     border-radius: 200%;
-    /*    width: 50%;*/
+
+
+
+
     margin-right: -2rem;
     background-color: white;
     color: white;
@@ -498,11 +515,30 @@ article {
     background-color: blue;
     padding: 2rem;
     width: 2rem;
-    /*    justify-content: stretch;*/
+
+
 }
 
 .trans:hover {
-    transform: scaleX(1.2);
+    transform: scale(1.1);
     transition: 0.2 transform ease-in-out;
     background-color: #fff;
+}
+
+.load-more {
+    padding-top: 3rem;
+    width: 50%;
+    padding-left: 80%;
+    grid-column: 2/3;
+    font-size: 1.2rem;
+    text-decoration-style: thick;
+}
+
+.load-more a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-bottom: 5px ridge #d33a2c;
+    border-spacing: 3rem;
+    color: grey;
+    padding-bottom: 0.5rem;
 }
