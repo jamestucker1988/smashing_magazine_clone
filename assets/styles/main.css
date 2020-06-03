@@ -116,8 +116,6 @@ nav ul li a {
 
 .main-sec-text {
     position: relative;
-
-
     left: -12rem;
     font-size: 2.5rem;
     max-width: 60%;
@@ -140,8 +138,7 @@ nav ul li a {
     position: relative;
     align-self: flex-start;
     display: flex;
-    max-width:
-        auto;
+    max-width: auto;
     text-decoration: none;
     font-size: 1rem;
     padding-top: 2rem;
@@ -160,7 +157,7 @@ nav ul li a {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    flex: 1 1 200px;
+    /*    flex: 1 1 200px;*/
 }
 
 .auther {
@@ -208,13 +205,80 @@ article {
 .smashing-member {
     grid-column-start: 1;
     grid-column-end: 3;
+    border: 1px solid red;
+}
+
+.smashing-member,
+.smashing-tv {
+    background-color: #d33a2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40rem;
+    color: #fff;
+}
+
+.smashing-member h2,
+.smashing-tv h2 {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.smashing-member img,
+.smashing-tv img {
+    width: 25%;
+    padding-left: 37.5%;
+}
+
+.smashing-member p,
+.smashing-tv p {
+    max-width: 50%;
+    text-align: center;
+    padding-left: 25%;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+.smashing-member-family {
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color: #fff;
+}
+
+.btn {
+    box-sizing: border-box;
+    /*    text-align: center;*/
+    border: 1px solid #fff;
+    border-radius: 11px;
+    padding: 1rem;
+    /*    margin-top: 10rem;*/
+    color: blue;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    /*    width: 5%;*/
+    /*    align: center;*/
 }
 
 .smashing-tv {
     grid-column-start: 3;
     grid-column-end: 5;
+    border: 1px solid blue;
+    background-color: #d33a2c;
 }
 
+/*
+.smashing-tv h2 {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+}
+*/
 .center-heading {
     display: inline-block;
     position: relative;
@@ -407,3 +471,38 @@ article {
         transition: @keyframes 1s ease-out;
     }
 */
+/*
+.arrow {
+    text-decoration: none;
+}
+*/
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.trans :last-child {
+    text-decoration: none;
+    margin-top: 100%;
+    color: #d33a2c;
+}
+
+.trans:hover :last-child {
+    margin-top: 100%;
+}
+
+.trans:hover > .arrow {
+    border: 1px solid blue;
+    color: #fff;
+    background-color: blue;
+    padding: 2rem;
+    width: 2rem;
+    /*    justify-content: stretch;*/
+}
+
+.trans:hover {
+    transform: scaleX(1.2);
+    transition: 0.2 transform ease-in-out;
+    background-color: #fff;
+}
