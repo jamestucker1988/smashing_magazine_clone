@@ -106,8 +106,6 @@ nav ul li a {
     padding-left: 5rem;
     align-self: center;
     margin-top: 10rem;
-
-
 }
 
 .y {
@@ -128,7 +126,6 @@ nav ul li a {
 }
 
 .meow {
-
     position: relative;
     align-self: flex-end;
     display: inline;
@@ -253,22 +250,14 @@ article {
 
 .btn {
     box-sizing: border-box;
-
-
     border: 1px solid #fff;
     border-radius: 11px;
     padding: 1rem;
-
-
     color: blue;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
-
-
-
-
 }
 
 .smashing-tv {
@@ -288,23 +277,31 @@ article {
 */
 .center-heading {
     display: inline-block;
-    position: relative;
+    /*    position: relative;*/
     z-index: 1;
     position: absolute;
-    left: 35%;
+    left: 40%;
     top: 20%;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: cursive;
     width: auto;
+    background-color: #fff;
+    clip-path: polygon(0 0, 0 50%, 25% 50%, 25% 100%, 75% 100%, 75% 100%, 75% 50%, 100% 50%, 100% 0);
+
+
 }
 
 .padding-article {
     display: block;
     position: relative;
-    left: 30%;
+    text-align: center;
     z-index: 1;
     font-size: 2rem;
     font-family: cursive;
+
+
+
+
 }
 
 #x {
@@ -315,8 +312,6 @@ article {
 .dropdown {
     position: relative;
     display: inline-block;
-
-
 }
 
 .dropbtn {
@@ -364,40 +359,22 @@ article {
 }
 
 .red-image {
-
-
     align-self: center;
-
-
     box-sizing: border-box;
-
-
-
-
     background-color: white;
     transform: rotateZ(-30deg);
-
-
     border: none;
     border-radius: 11px;
     width: 30%;
     height: 55%;
-
-
 }
 
 .bor {
-
-
     transform: rotateZ(0deg);
     border: none;
     padding: auto 10%;
     width: inherit;
     border-radius: 200%;
-
-
-
-
     margin-right: -2rem;
     background-color: white;
     color: white;
@@ -496,7 +473,8 @@ article {
 .flex2 {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    /*    justify-content:center;*/
+    align-items: center;
 }
 
 .trans :last-child {
@@ -515,8 +493,6 @@ article {
     background-color: blue;
     padding: 2rem;
     width: 2rem;
-
-
 }
 
 .trans:hover {
@@ -541,4 +517,83 @@ article {
     border-spacing: 3rem;
     color: grey;
     padding-bottom: 0.5rem;
+}
+
+.pre-release {
+    background-color: #1b71bb;
+    margin-top: 8rem;
+    color: white;
+    /*    height: 100%;*/
+    height: 50%;
+}
+
+.conf-panel {
+    /*    align-self: center;*/
+    /*    justify-content: center;*/
+    color: white;
+}
+
+.conf-panel__desc {
+    /*    text-align: center;*/
+    align-self: center;
+    max-width: 40%;
+    color: white;
+}
+
+.smashing-cat {
+
+
+    /*    height: 200%;*/
+    margin-top: 5rem;
+    width: 50%;
+    /*    align-self: center;*/
+    margin-left: 25%;
+}
+
+.confh2 a {
+
+    color: #fff;
+    font-size: 3rem;
+}
+
+.btn-color {
+    color: #1b71bb;
+    font-size: 1.5rem;
+}
+
+.size {
+    width: 200px;
+    height: 200px;
+    /*    background-color: #d33a2c;*/
+    transform: rotateZ(-30deg);
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+
+.size:hover {
+    transform: rotateZ(0deg);
+    transition: 0.2s transform ease-out;
+}
+
+.person-of-week {
+    display: grid;
+}
+
+.person-of-week h3 {
+    /*    display: grid;*/
+    grid-column: 2/3;
+    padding-left: 6%;
+    font-weight: 400;
+}
+
+.person-of-week img {
+    grid-column: 1/2;
+}
+
+.person-of-week p {
+    text-align: center;
+    width: 60%;
+    padding-left: 5%;
+    grid-column: 2/3;
 }
