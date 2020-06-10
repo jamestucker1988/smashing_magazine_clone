@@ -667,3 +667,30 @@ article {
     background-color: #fff;
     color: #d33a2c;
 }
+
+div p:first-child {
+    color: grey;
+}
+
+.list p:nth-child(2) {
+    font-size: 2rem;
+    /*    color: ;*/
+}
+
+.list {}
+
+.list > ul li {
+    font-size: 1.5rem;
+    color: #d33a2c;
+    padding: 0.5rem;
+}
+
+.list > ul li a {
+    color: #1b71bb;
+}
+
+.list:hover {
+    transform: scale(1.1);
+    transition: 0.2 transform ease-in-out;
+    background-color: #fff;
+}
