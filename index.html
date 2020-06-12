@@ -11,20 +11,21 @@
     <link rel="stylesheet" href="assets/styles/reset.css">
     <link rel="stylesheet" href="assets/styles/main.css">
     <link href="/smashing_magazine_clone/images/svg/smashing.js">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/528b755bd5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="grid-mode red-bckground-color">
-        <div class="logo">
-            <a href="#" class="nav-logo">
-                <picture>
-                    <source media="(min-width: 1350px)" srcset="./images/svg/logo--full.svg">
-                    <img src="./images/svg/logo.svg" alt="Smashing Magazine">
-                </picture>
-            </a>
-        </div>
+    <header class="red-bckground-color">
+
         <nav>
             <ul>
+                <li class="logo"> <a href="#" class="nav-logo">
+
+                        <img src="./images/svg/logo--full.svg">
+
+
+                    </a></li>
                 <li><a href="#">Articles</a></li>
                 <li><a href="#">Guides</a></li>
                 <li><a href="#">Books</a></li>
@@ -33,18 +34,10 @@
                 <li><a href="#">Jobs</a></li>
                 <li><a href="#">Newsletter</a></li>
                 <li><a href="#">Podcasts</a></li>
-                <button><img src="" alt=""></button>
-                <!--                <li role="none" class="nav-item main-nav-more-item">-->
-                <div class="dropdown">
-                    <button onclick=myFunction() class="dropbtn" type="button" aria-haspopup="true" aria-expanded="true">more</button>
-                    <div id="myDropdown" class=" dropdown-content">
-                        <a class="">More</a>
-                        <a class="">Less</a>
-                    </div>
-                    <!--
-                    <span class="menu-text--sm">Menu</span>
-                    <span class="menu-text--sm--close">Less</span>-->
-                </div>
+                <li><button class="inline-flex"><span class="more">More</span><img src="/smashing_magazine_clone/images/svg/kitten-nav.svg" alt=""></button></li>
+                <li><label for="input" id="z" class="flex-container justify-content align-items"><span class="fa fa-search" aria-hidden="true"></span><input type="search" class="btn2" id="z" placeholder="search articles"></label></li>
+
+
             </ul>
         </nav>
     </header>
@@ -52,12 +45,7 @@
         <div class="main-heading-grid">
             <div class="center-heading ">Do not miss these Latest
                 <span class="padding-article">Articles</span> </div>
-            <div class="hov">
-                <div class="red-image">
-                    <img id='x' class=" bor" src="/smashing_magazine_clone/images/svg/circular.svg">
-                </div>
-                <button class="red">seriously,red?</button>
-            </div>
+
         </div>
         <div class="main-part ">
             <div class="text bg-color ">
@@ -156,7 +144,7 @@
             <img class="singing-barista" src="/smashing_magazine_clone/images/singing-barista.svg" alt="singing barista">
             <h2>1.999 smashing member</h2>
             <p class="meow__intro">A friendly community that keeps this website alive. With books, webinars, discounts and networking — for just 1 coffee a month. <a class="smashing-member-family" href="/membership/" dideo-checked="true">Join the family.</a></p>
-            <a href="/membership" class="arrow">Explore features&nbsp;→</a>
+            <a href="/membership" class="btn">Explore features&nbsp;→</a>
         </div>
         <div class="trans flex2">
             Advertisment
@@ -191,8 +179,8 @@
         <div class="smashing-tv">
             <img class="singing-barista" src="/smashing_magazine_clone/images/singing-barista.svg" alt="singing barista">
             <h2>1.999 smashing member</h2>
-            <p class="meow__intro">A friendly community that keeps this website alive. With books, webinars, discounts and networking — for just 1 coffee a month. <a href="/membership/" class="smashing-member-family" dideo-checked=" true">Join the family.</a></p>
-            <a href="/membership" role="button" class="btn" dideo-checked="true">Explore features&nbsp;→</a>
+            <p class="meow__intro">A friendly community that keeps this website alive. With books, webinars, discounts and networking — for just 1 coffee a month. <a href="/membership/" class="smashing-member-family">Join the family.</a></p>
+            <a href="/membership" class="btn">Explore features&nbsp;→</a>
         </div>
         <div class="load-more"><a class="
             " href="#">See All <span class="p1">Latest Articles</span></a></div>
@@ -463,7 +451,7 @@
             <img class="laptop" src=" /smashing_magazine_clone/images/svg/laptop__left.svg" alt="">
             <div class="footer__links">
 
-                <ul class="footer__topics__list1 flex-container flex-row justify-content align-items">
+                <ul class="footer__topics__list1 flex-container flex-row justify-content ">
                     <li>✎ <a href="/write-for-us/">Write for us</a></li>
                     <li><a href="/contact/">Contact us</a></li>
                     <li><a href="/about/">About us (Impressum)</a></li>
@@ -471,7 +459,7 @@
                 </ul>
 
 
-                <ul class="float footer__topics__list1 flex-container flex-row justify-content align-items">
+                <ul class="float footer__topics__list1 flex-container flex-row justify-content">
 
                     <li><a href="/auth/">Membership login</a></li>
 
