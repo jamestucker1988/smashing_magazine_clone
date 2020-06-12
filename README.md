@@ -9,15 +9,15 @@ This is an assigned project where we were supposed to replicate/clone smashingma
 
 ### Top of the webpage
 ​
-![screenshot 1](/smashing_magazine_clone/images/u.png)
+![screenshot 1](smashing_magazine_clone/images/u.png)
 
 ### Middle of the webpage
 
-![screenshot 2](/smashing_magazine_clone/images/m.png)
+![screenshot 2](smashing_magazine_clone/images/m.png)
 
 ### Bottom of the webpage
 
-![screenshot 3](/smashing_magazine_clone/images/l.png)
+![screenshot 3](smashing_magazine_clone/images/l.png)
 ​
 ## Built With
 - HTML5
