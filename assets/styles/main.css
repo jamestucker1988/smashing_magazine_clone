@@ -710,11 +710,11 @@ div p:first-child {
 }
 
 .barista-again {
-    width: 400%;
+    width: 100%;
     text-align: center;
     margin-bottom: 5rem;
     background-color: #d33a2c;
-    /*    position: relative;*/
+    /*        position: relative;*/
 }
 
 .barista-again div a img {
@@ -779,18 +779,20 @@ label {
 
 .small {
     color: #fff;
-    position: relative;
+    /*    position: relative;*/
 }
 
 .load-more1 {
-    position: absolute;
+    position: relative;
     margin-top: 5rem;
     width: 50%;
-    padding-left: 80%;
-    grid-column: 2/3;
+    padding-left: 46%;
+    grid-column: 1/2;
     font-size: 1.2rem;
     text-decoration-style: thick;
     color: black;
+
+
 
 }
 
@@ -805,10 +807,7 @@ label {
 
 .main-footer {
     background-color: #d33a2c;
-
-
-
-
+    margin-top: 5rem;
 }
 
 .footer__topics__title {
@@ -818,9 +817,8 @@ label {
 
 }
 
-.footer__topics__list {
-    /*    margin-left: 15rem;*/
-}
+
+
 
 .footer__topics__item {
     margin: auto 1rem;
@@ -856,4 +854,43 @@ label {
 
 }
 
-.footer__links {}
+.footer__links {
+    float: left;
+}
+
+.footer__topics__list1 li {
+    margin: auto 1.5rem;
+    color: #fff;
+}
+
+.footer__topics__list1 li a {
+
+
+    color: #fff;
+}
+
+.laptop {
+    width: 10%;
+    /*    float: left;*/
+    margin-left: 20%;
+}
+
+/*
+.advertise {
+    margin-right: auto;
+}
+*/
+/*
+.float {
+    float: right;
+}
+*/
+.footer__topics__list1 ul li {
+    flex: 1 1 auto;
+}
+
+.footer__topics__list1 img {
+    /*    flex: 1 1 auto;*/
+    margin-left: -30rem;
+    padding-right: 10%;
+}
