@@ -6,7 +6,11 @@ This is an assigned project where we were supposed to replicate/clone smashingma
 ​
 ## Preview of our webpage
 ​
-![screenshot](webpage_preview.PNG)
+![screenshot](/smashing-magazine/smashing_magazine_clone/images/Screenshot at 2020-06-12 23-29-43.png)
+​
+![screenshot](/smashing-magazine/smashing_magazine_clone/images/Screenshot at 2020-06-12 23-30-22.png)
+​
+![screenshot](/smashing-magazine/smashing_magazine_clone/images/Screenshot at 2020-06-12 23-31-00.png)
 ​
 ## Built With
 - HTML5
