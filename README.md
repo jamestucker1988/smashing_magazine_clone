@@ -9,7 +9,7 @@ This is an assigned project where we were supposed to replicate/clone smashingma
 
 ### Top of the webpage
 ​
-![screenshot 1](/home/kumar/Desktop/microverse-project/smashing-magazine/smashing_magazine_clone/images/u.png)
+![screenshot ](/smashing_magazine_clone/images/u.png)
 
 ### Middle of the webpage
 
