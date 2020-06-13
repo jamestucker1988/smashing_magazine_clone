@@ -9,7 +9,7 @@ This is an assigned project where we were supposed to replicate/clone smashingma
 
 ### Top of the webpage
 ​
-![screenshot ](/smashing_magazine_clone/images/u.png)
+![screenshot ](smashing_magazine_clone/images/u.png)
 
 ### Middle of the webpage
 
