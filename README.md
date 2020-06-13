@@ -13,7 +13,7 @@ This is an assigned project where we were supposed to replicate/clone smashingma
 
 ### Middle of the webpage
 
-![screenshot 2](/home/kumar/Desktop/microverse-project/smashing-magazine/smashing_magazine_clone/images/m.png)
+![screenshot 2](/smashing-magazine/smashing_magazine_clone/images/m.png)
 
 ### Bottom of the webpage
 
