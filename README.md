@@ -17,7 +17,7 @@ This is an assigned project where we were supposed to replicate/clone smashingma
 
 ### Bottom of the webpage
 
-![screenshot 3](/home/kumar/Desktop/microverse-project/smashing-magazine/smashing_magazine_clone/images/l.png)
+![screenshot 3](jamestucker1988/smashing_magazine_clone/images/l.png)
 ​
 ## Built With
 - HTML5
